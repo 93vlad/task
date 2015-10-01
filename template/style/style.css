@@ -1,0 +1,31 @@
+.head, .content, .footer{
+	display: block;
+	width: 70%;
+	position: relative;
+	left: 15%;
+	min-width: 500px;
+}
+.head{
+	background: lightgrey;
+	height: 20%;
+	top: 2.5%;
+}
+.content{
+	position: relative;
+	height: 50%;
+	top: 22.5%;
+}
+.footer{
+	position: fixed;
+	background: lightblue;
+	bottom: 0;
+	margin-bottom: 1px;
+	height: 10%;
+	
+}
+.user{
+	width: 180px;
+	position: absolute;
+	right: 0%;
+	top: 0%;
+}
